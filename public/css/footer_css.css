@@ -11,14 +11,14 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #222 !important;
+    background: #79bb2a !important;
 }
 #footer h5{
     padding-left: 10px;
-    border-left: 3px solid #07a7db;
+    border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color:#07a7db;
+    color:#ffffff;
 }
 #footer a {
     color: #ffffff;

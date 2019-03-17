@@ -7,11 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 class SysStatic extends Model
 {
     //
-    protected $fillable=[
-        'static_name',
-        'page',
+    protected $fillable= [
+        'control_name',
         'value_en',
         'value_kh',
-        'file_id'
+        'photo_id'
     ];
+
+
+
+    public function photo(){
+        return $this->belongsTo('App\Photo','photo_id');
+    }
 }
